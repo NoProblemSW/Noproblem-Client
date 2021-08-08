@@ -9,14 +9,29 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  홈: undefined;
+  키오스크: undefined;
+  코로나: undefined;
+  예약: undefined;
+  '앱 다운로드': undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type TabHomeParamList = {
+  TabHomeScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type TabAppDownloadParamList = {
+  TabAppDownloadScreen: undefined;
+};
+
+export type TabKioskParamList = {
+  TabKioskScreen: undefined;
+};
+
+export type TabCoronaParamList = {
+  TabCoronaScreen: undefined;
+};
+
+export type TabReservationParamList = {
+  TabReservationScreen: undefined;
 };
